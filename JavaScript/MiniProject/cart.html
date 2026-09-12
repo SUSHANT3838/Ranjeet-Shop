@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="headline">
+        <h1>My Shoping Cart</h1>
+    </div>
+    <div class="nav-bar">
+        <a id="home" href="index.html">Home</a>
+        <a id="cart" href="cart.html">Cart</a>
+    </div>
+    <h2>Cart (<span id="cartCount">0</span> items)</h2>
+    <div class="product" id="cartItem"></div>
+    <h3 id="totalAmount">Total Amount Rs. : 0</h3>
+    <section class="checkout-panel">
+        <h2>Order Confirmation</h2>
+        <label for="customerName">Customer Name</label>
+        <input type="text" id="customerName" placeholder="Enter customer name">
+        <button id="confirmOrderBtn" type="button" onclick="confirmOrder()">Confirm Order</button>
+        <p id="orderMessage"></p>
+    </section>
+
+    <section id="billSection" class="bill-section hidden">
+        <div class="bill-card" id="billCard">
+            <h2>Bill / Receipt</h2>
+            <p id="billMeta"></p>
+            <div id="billItems"></div>
+            <h3 id="billTotal"></h3>
+        </div>
+        <div class="bill-actions">
+            <button type="button" onclick="printBill()">Print Bill</button>
+            <button type="button" onclick="saveBillAsPdf()">Save as PDF</button>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>

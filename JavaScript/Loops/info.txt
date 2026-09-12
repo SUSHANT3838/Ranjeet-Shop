@@ -1,0 +1,5 @@
+Loops are used to perform repeted tasks
+
+1 for
+2 while
+3 do-while

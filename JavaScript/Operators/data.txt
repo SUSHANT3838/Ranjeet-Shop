@@ -1,0 +1,6 @@
+- add numbers
+- logic
+- compair
+- joining
+- assign
+- true

@@ -1,0 +1,13 @@
+Array size increses dyanamicaly
+It stores any type of data
+Access by using indexing
+Four operations(CRUD)
+    Create(Decrare array)
+    Read
+    Update
+        push -> add at last position => array.push()
+        unshift -> add at first position => array.unshift()
+    Delete
+        pop -> last ele
+        shift -> first ele
+        splice -> part of aaray

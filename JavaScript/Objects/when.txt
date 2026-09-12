@@ -1,0 +1,5 @@
+key normal - dot(.)
+key dyanamic - []
+key space - []
+key number -[]
+key with char - []
